@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrentWeightSetter">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="32dp"
+        android:textColor="#2196F3"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Weight Monitor" />
+
+    <TextView
+        android:id="@+id/textViewGoalWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="184dp"
+        android:text="YOUR GOAL WEIGHT"
+        android:textColor="#789AB5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et_numberGoalWeight"
+        android:layout_width="209dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="548dp"
+        android:ems="10"
+        android:hint="xxx lbs"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCurrentWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="118dp"
+        android:text="YOUR CURRENT WEIGHT"
+        android:textColor="#789AB5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_numberCurrentWeight"
+        android:layout_width="209dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="xxx lbs"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_inspirationalMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="87dp"
+        android:text="Inspirational Message\nInspirational Message\nInspirational Message\nInspirational Message\nInspirational Message"
+        android:textAlignment="center"
+        android:textColor="#789AB5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2196F3"
+        android:text="Continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
